@@ -2,7 +2,7 @@
 
 Predicting hourly concentrations of **PM10, SO₂, and NO₂** in Beijing from meteorological data, using an **LSTM** (primary) and **XGBRegressor** (alternative) model.
 
-Project for the *International Master of Advanced Methods in Particle Physics (IMAPP)*, TU Dortmund University.
+Project for the "Machine Learning for Physicists" module, TU Dortmund University.
 
 ## Overview
 
