@@ -77,17 +77,6 @@ Full architectures and hyperparameter tables are in `ML - Report.pdf` (Sections 
 - Try longer input windows (48–72h), Bidirectional LSTM/GRU, or attention mechanisms
 - Ensemble LSTM (temporal) with XGBoost (tabular) predictions
 
-## Getting Started
-
-```bash
-git clone https://github.com/<your-username>/Beijing-Air-Quality-Prediction.git
-cd Beijing-Air-Quality-Prediction
-pip install pandas numpy scikit-learn tensorflow xgboost matplotlib seaborn jupyter
-jupyter notebook ML.ipynb
-```
-
-Place the raw station CSVs from the [UCI dataset](https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data) in `Data/` before running.
-
 ## Authors
 
 - **Md Rounak Jahan Raj** — rounak.raj@tu-dortmund.de
@@ -96,4 +85,4 @@ TU Dortmund University, IMAPP · Submitted to Dr. Carsten Burgard and Dr. Cornel
 
 ## License
 
-Dataset licensed under CC BY 4.0. Add a `LICENSE` file if you want to license the code itself (e.g., MIT).
+Dataset licensed under CC BY 4.0.
